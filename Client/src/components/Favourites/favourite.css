@@ -1,0 +1,35 @@
+
+.favourites-color {
+    color: rgb(255, 0, 0);
+  }
+  
+  .fav-styles {
+    font-size: 0.85rem;
+    color: rgb(255, 255, 255);
+  }
+  
+  .card:hover {
+    box-shadow: rgb(147, 147, 147) 5px 5px 5px 5px;
+    transform: scale(1.02);
+  }
+  
+  .card {
+    color: rgb(36, 102, 255);
+    text-decoration: none;
+    box-shadow: rgba(211, 36, 36, 0.06) 0px 2px 4px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card:focus {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .movie-poster {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 275px;
+  }
